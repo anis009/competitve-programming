@@ -6,7 +6,7 @@ int main()
 	// freopen("addin.txt","r",stdin);
 	// freopen("addout.txt","w",stdout);
 	int n ,p1=0,p2=0;
-		int a,b,sum1=0,sum2 = 0;
+	int a,b,sum1=0,sum2 = 0;
 	cin>>n;
 	while(n--){
 	
