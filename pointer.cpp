@@ -6,10 +6,15 @@ int main()
 	// freopen("addin.txt","r",stdin);
 	// freopen("addout.txt","w",stdout);
 
-	int n;
-	cin>>n;
+	int a;
 	
-
+	a  = 5;
+	
+	int* p = &a;
+	
+	p = p + 1;
+	 
 
 	return 0;
+
 }
