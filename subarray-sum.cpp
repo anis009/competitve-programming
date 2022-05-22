@@ -11,6 +11,20 @@ int main()
   cin.tie(NULL); 
   cout.tie(NULL);
 
+  int n;
+  cin>>n;
+  int a[n];
+  for(int i=0;i<n;i++)cin>>a[i];
+
+  for(int i=0;i<n;i++){
+  	cout<<a[i]<<" ";
+  	for(int j=i+1;j<n;j++){
+  		cout<<a[j]<<" ";
+  	}
+  	cout<<endl;
+  }
+
+
 	
 
 	return 0;
